@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+
+sourceCompatibility = 1.8
+repositories {
+    maven {
+        url 'https://maven.pdd.net/repository/maven-public/'
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+allprojects {
+    group = "JavaLearingNotes"
+    version = "0.0.1"
+}
+
+dependencies {
+    compile('org.projectlombok:lombok:1.18.20')
+    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+}
+
+
+
+

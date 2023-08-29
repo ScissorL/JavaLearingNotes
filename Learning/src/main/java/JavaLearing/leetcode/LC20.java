@@ -1,4 +1,4 @@
-package leetcode;
+package JavaLearing.leetcode;
 
 
 import java.lang.reflect.Array;
