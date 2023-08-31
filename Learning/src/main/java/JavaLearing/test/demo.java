@@ -13,7 +13,6 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 
 @Data
-@Slf4j
 public class demo {
     private static <T> void demoFunction(
             Supplier<T> arraySupplier,
